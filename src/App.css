@@ -10,3 +10,107 @@ body {
 a {
   color: #580f8b !important;
 }
+
+/* Remove border highlight when active/focused */
+.accordion-button:focus,
+.accordion-button:active {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+  /* background-color: #390063 !important; */
+  background-color: white !important;
+  color: black !important;
+  /* color: #ffffff !important; */
+  border-bottom: 1px solid #dee2e6 !important; /* Ensure the border remains */
+  box-shadow: none !important;
+}
+
+/* Set the caret icon color to white */
+/* .accordion-button::after {
+  filter: brightness(0) invert(1);
+} */
+
+/* Ensure consistent bottom border between header & body */
+.accordion-button {
+  border-bottom: 1px solid #dee2e6 !important;
+  /* background-color: #390063 !important; */
+  /* color: white !important; */
+}
+
+.accordion-body {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.button-container .btn {
+  flex: 1; /* Makes all buttons take equal width */
+}
+
+.custom-purple-button {
+  background-color: #580f8b !important;
+  border-color: #580f8b !important;
+}
+
+.custom-purple-button:hover {
+  background-color: #4a0d72 !important; 
+  border-color: #4a0d72 !important;
+}
+
+.custom-purple-outline-button {
+  border-color: #580f8b !important;
+  color: #580f8b !important;
+}
+
+.custom-purple-outline-button:hover {
+  background-color: #e5ccfa !important; /* Light purple */
+  color: #580f8b !important;
+}
+
+.math-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.margin-right-radio {
+  margin-right: 1.5rem;
+}
+
+.light-hr {
+  border: none;
+  border-top: 1px solid #ddd; 
+  opacity: 0.5; 
+  /* width: 95%; */
+}
+
+/* Change checkbox border color */
+.form-check-input {
+  border-color: #580f8b !important;
+  background-color: transparent !important; /* Transparent background when unchecked */
+}
+
+/* Change background color when checked */
+.form-check-input:checked {
+  background-color: #580f8b !important;
+  border-color: #580f8b !important;
+}
+
+/* Change focus ring (highlight/shadow) */
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(88, 15, 139, 0.25) !important;
+}
+
+/* Change hover effect */
+.form-check-input:hover {
+  border-color: #580f8b !important;
+}

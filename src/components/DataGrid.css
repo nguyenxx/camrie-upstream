@@ -1,0 +1,48 @@
+p {
+    margin-top: 1rem !important;
+}
+
+.MuiDataGrid-columnHeaders {
+    background: #333 !important;
+    color: white;
+}
+
+.MuiDataGrid-columnHeaders .MuiSvgIcon-root {
+    color: white;
+}
+
+.edit-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.694);
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-button:hover {
+    color: #580f8b;
+}
+
+/* Change DataGrid checkbox color */
+.MuiDataGrid-checkboxInput {
+    color: #580f8b !important; /* Default purple color */
+}
+
+/* When checkbox is checked */
+.MuiDataGrid-checkboxInput.Mui-checked {
+    color: #580f8b !important; /* Purple when checked */
+}
+
+/* Hover effect */
+.MuiDataGrid-checkboxInput:hover {
+    background-color: rgba(88, 15, 139, 0.1) !important; /* Light purple hover */
+}
+
+/* Focus outline */
+.MuiDataGrid-checkboxInput.Mui-focusVisible {
+    box-shadow: 0 0 0 3px rgba(88, 15, 139, 0.25) !important;
+}
+

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Nav } from 'react-bootstrap';
 import NavBar from "./components/NavBar";
+import HomeTab from './components/HomeTab';
 import './App.css';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
   const toggleAccordion = () => setIsAccordionOpen(!isAccordionOpen);
 
   return (
-    <div>
+    <>
       <NavBar />
       <Container className="mt-5">
         <Nav variant="tabs" activeKey={activeTab} onSelect={setActiveTab} className="custom-tabs mt-4">
@@ -25,8 +26,28 @@ function App() {
             <Nav.Link eventKey="results">Results</Nav.Link>
           </Nav.Item>
         </Nav>
+
+        <div className="mt-3">
+          {activeTab === "home" && (
+            <HomeTab
+              isAccordionOpen={isAccordionOpen}
+              toggleAccordion={toggleAccordion}
+            />
+          )}
+          {/* {activeTab === "setup" && (
+            <SetUpTab
+              isAccordionOpen={isAccordionOpen}
+              toggleAccordion={toggleAccordion}
+            />
+          )}
+          {activeTab === "results" &&  <ResultsTab
+              isAccordionOpen={isAccordionOpen}
+              toggleAccordion={toggleAccordion}
+            />} */}
+        </div>
+        
       </Container>
-    </div>
+    </>
   );
 }
 
