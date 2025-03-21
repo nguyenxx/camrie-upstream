@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <Container className="mt-5">
+      <Container className="mt-4">
         <Nav variant="tabs" activeKey={activeTab} onSelect={setActiveTab} className="custom-tabs mt-4">
           <Nav.Item>
             <Nav.Link eventKey="home">Home</Nav.Link>
@@ -47,6 +47,11 @@ function App() {
         </div>
         
       </Container>
+      <footer className="footer">
+        <Container>
+          <p className="text-center">&copy; 2025 Copyright: Center for Biomedical Imaging. All rights reserved.</p>
+        </Container>
+      </footer>
     </>
   );
 }

@@ -7,6 +7,21 @@ body {
   background: #f8fafc !important;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-top: auto;
+  text-align: center;
+  font-size: 14px;
+  color: #6c757d;
+}
+
 a {
   color: #580f8b !important;
 }
