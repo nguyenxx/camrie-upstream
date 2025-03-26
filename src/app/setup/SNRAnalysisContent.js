@@ -3,9 +3,9 @@ import { Form, Card, Accordion, Button } from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
-import DropdownSelect from "../DropdownSelect/DropdownSelect";
-import RadioButtonGroup from '../RadioButtonGroup/RadioButtonGroup';
-import NumberInput from "../NumberInput/NumberInput";
+import DropdownSelect from "../../components/DropdownSelect/DropdownSelect";
+import RadioButtonGroup from '../../components/RadioButtonGroup/RadioButtonGroup';
+import NumberInput from "../../components/NumberInput/NumberInput";
 import "katex/dist/katex.min.css"; // Required for math rendering
 import '../../App.css';
 

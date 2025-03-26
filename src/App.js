@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import { Container, Nav } from 'react-bootstrap';
 // import Signin from "./components/SignIn/SignIn";
 import NavBar from "./components/NavBar/NavBar"; 
-import HomeTab from './components/Tabs/HomeTab';
-import SetUpTab from './components/Tabs/SetUpTab'; // Adjusted import path for SetUpTab
+import HomeTab from './app/home/HomeTab';
+import SetUpTab from './app/setup/SetUpTab'; // Adjusted import path for SetUpTab
 import './App.css';
 // import { useAppDispatch } from './features/hooks';
 // import { getAccessToken } from './features/authenticate/authenticateActionCreation';

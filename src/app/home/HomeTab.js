@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Accordion, Row, Col } from 'react-bootstrap';
-import CustomButton from "../Button/CmrButton";
+import CustomButton from "../../components/Button/CmrButton";
 import { faUpload, faDownload, faTrash } from '@fortawesome/free-solid-svg-icons';
-import DataTable from '../DataGrid/DataGrid';
+import DataTable from '../../components/DataGrid/DataGrid';
 import '../../App.css'; // Ensure styling is still applied
 
 const HomeTab = ({ isAccordionOpen, toggleAccordion }) => {

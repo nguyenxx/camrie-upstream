@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion, Form } from 'react-bootstrap';
-import CustomButton from "../Button/CmrButton";
+import CustomButton from "../../components/Button/CmrButton";
 import SNRAnalysisContent from './SNRAnalysisContent';
 import { faRedo } from '@fortawesome/free-solid-svg-icons';
 import '../../App.css';
