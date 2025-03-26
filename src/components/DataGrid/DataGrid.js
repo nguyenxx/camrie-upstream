@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import { DataGrid, useGridApiRef } from '@mui/x-data-grid';
-import { FaRegEdit, FaPencilAlt } from 'react-icons/fa';
+import { FaRegEdit } from 'react-icons/fa';
 
 import dayjs from 'dayjs';
 import './DataGrid.css';

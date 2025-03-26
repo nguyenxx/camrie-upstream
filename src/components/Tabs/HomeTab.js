@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { Accordion, Button, Container, Row, Col } from 'react-bootstrap';
-import CustomButton from "./CmrButton";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Accordion, Row, Col } from 'react-bootstrap';
+import CustomButton from "../Button/CmrButton";
 import { faUpload, faDownload, faTrash } from '@fortawesome/free-solid-svg-icons';
-import DataTable from './DataGrid';
-import '../App.css'; // Ensure styling is still applied
+import DataTable from '../DataGrid/DataGrid';
+import '../../App.css'; // Ensure styling is still applied
 
 const HomeTab = ({ isAccordionOpen, toggleAccordion }) => {
     const [selectedRows, setSelectedRows] = useState([]); // tracl row selection
