@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { Container, Nav } from 'react-bootstrap';
-// import Signin from "./components/SignIn/SignIn";
 import NavBar from "./components/NavBar/NavBar"; 
 import HomeTab from './app/home/HomeTab';
-import SetUpTab from './app/setup/SetUpTab'; // Adjusted import path for SetUpTab
+import SetUpTab from './app/setup/SetUpTab'; 
 import './App.css';
-// import { useAppDispatch } from './features/hooks';
-// import { getAccessToken } from './features/authenticate/authenticateActionCreation';
 
 // Extract the main page content into a separate component
 function MainPage() {

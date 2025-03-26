@@ -129,3 +129,10 @@ a {
 .form-check-input:hover {
   border-color: #580f8b !important;
 }
+
+/* Style for active dropdown items */
+.dropdown-item.active, 
+.dropdown-item:active {
+  background-color: #580f8b !important;
+  color: white !important;
+}
