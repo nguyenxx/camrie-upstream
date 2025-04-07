@@ -4,7 +4,8 @@ import { Container, Nav } from 'react-bootstrap';
 import NavBar from "./components/NavBar/NavBar";
 import HomeTab from './app/home/HomeTab';
 import SetUpTab from './app/setup/SetUpTab';
-import SignIn from './app/signin/SignIn'; // Corrected path
+import ResultsTab from './app/results/ResultsTab';
+import SignIn from './app/signin/SignIn';
 
 import './App.css';
 
@@ -37,6 +38,7 @@ function MainPage() {
         <Routes>
           <Route path="/home" element={<HomeTab />} />
           <Route path="/setup" element={<SetUpTab />} />
+          <Route path="/results" element={<ResultsTab />} />
         </Routes>
       </Container>
       <footer className="footer">

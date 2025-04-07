@@ -43,6 +43,7 @@ export default function Signin() {
         alert(result.data.error);
         return;
       } else if (result?.data?.access_token) {
+        alert("Login successful!")
         navigate('/main/home'); 
         return;
       }
